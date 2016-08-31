@@ -18,5 +18,5 @@ var server = app.listen(PORT, function () {
   var host = server.address().address;
   var port = server.address().port;
 
-  console.log('quickfix listening at http://%s:%s', host, port);
+  console.log('quickfix is listening at http://%s:%s', host, port);
 });
